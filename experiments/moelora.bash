@@ -1,6 +1,6 @@
 lora_rank=16
-#lora_trainable="query_key_value,dense,dense_h_to_4h,dense_4h_to_h"
-lora_trainable='q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj'
+lora_trainable="query_key_value,dense,dense_h_to_4h,dense_4h_to_h"
+#lora_trainable='q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj'
 modules_to_save="null"
 lora_dropout=0.1
 LR=2e-4
