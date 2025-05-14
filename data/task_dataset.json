@@ -1,0 +1,1 @@
+{"str2id": {"reply": 1, "targets": 2, "aspects": 3, "opinions": 4, "quadruples": 5, "target-aspect": 6, "target-opinion": 7, "aspect-opinion": 8}, "id2str": {"1": "reply", "2": "targets", "3": "aspects", "4": "opinions","5": "quadruples","6": "target-aspect","7": "target-opinion","8": "aspect-opinion"}}
