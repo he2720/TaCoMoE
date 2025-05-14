@@ -20,3 +20,8 @@ You can download the dataset used in this project from the following link: [Down
 | [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)  | 
 | [ChatGLM3-6B ](https://huggingface.co/THUDM/chatglm3-6b) |
 | [Qwen2-7B](https://huggingface.co/Qwen/Qwen2-7B-Instruct)  | 
+
+# Running TaCoMoE
+• Install the required packages:<br>
+
+`pip install -r requirements.txt`
