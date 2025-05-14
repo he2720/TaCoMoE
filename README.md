@@ -9,7 +9,7 @@ Here are the software and hardware environments I used in my experiments:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;• deepspeed: 0.13.1<br>
 • Hardware:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;• GPU: NVIDIA GeForce RTX 4090<br>
-&nbsp;&nbsp;&nbsp;&nbsp;• CUDA: 12.2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;• CUDA: 12.1<br>
 &nbsp;&nbsp;&nbsp;&nbsp;• Driver: 535.230.02<br>
 
 # Data & Model<br>
@@ -23,5 +23,11 @@ You can download the dataset used in this project from the following link: [Down
 
 # Running TaCoMoE
 • Install the required packages:<br>
-
-`pip install -r requirements.txt`
+```bash
+cd TaCoMoE/
+pip install -r requirements.txt
+```
+• Train && Evaluate the TaCoMoE on the Chinese and English dataset:<br>
+```bash
+bash experiments/moelora.bash
+```
