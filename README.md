@@ -1,5 +1,6 @@
 # TaCoMoE
-The official implementation code of TaCoMoE
+The overall architecture of TaCoMoE. The proposed TaCoMoE consists of three maincomponents: dialogue input engineering, task-oriented mixture of experts layer,and contrastive loss.<br>
+<img src="imgs/asq_model.png" alt="" style="width:630px; background-color:white; padding:10px; border-radius:8px;" />
 # Requirements
 Here are the software and hardware environments I used in my experiments:<br>
 • Software:<br>
@@ -20,7 +21,7 @@ You can download the dataset used in this project from the following link: [Down
 | [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)  | 
 | [ChatGLM3-6B ](https://huggingface.co/THUDM/chatglm3-6b) |
 | [Qwen2-7B](https://huggingface.co/Qwen/Qwen2-7B-Instruct)  | 
-
+We provide the implementation for ChatGLM3; the other models can be adapted by modifying their model loading code in the same way as for ChatGLM3.
 # Running TaCoMoE
 • Install the required packages:<br>
 ```bash
