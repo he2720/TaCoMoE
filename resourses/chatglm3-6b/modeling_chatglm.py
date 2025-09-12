@@ -1262,7 +1262,7 @@ class ChatGLMForConditionalGeneration(ChatGLMPreTrainedModel):
 
         return CausalLMOutputWithPastAndConLoss(
             loss=loss,
-           # con_loss=con_loss,
+            con_loss=con_loss,
             logits=lm_logits,
             past_key_values=transformer_outputs.past_key_values,
             hidden_states=transformer_outputs.hidden_states,

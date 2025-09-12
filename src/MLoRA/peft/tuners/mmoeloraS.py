@@ -207,10 +207,7 @@ class MMOELoraLinearS(MMOELoraLinear):
             for i in range(self.expert_num):
                 A_out = self.lora_A[self.active_adapter].loraA[i](self.lora_dropout[self.active_adapter](x)).reshape(seq_len, batch_size,  1, -1)
                 #print('175',result)
-                print(self.lora_B[self.active_adapter].loraB[i].weight.shape)
-                print(self.lora_A[self.active_adapter].loraA[i](self.lora_dropout[self.active_adapter](x)).shape)
-                print(result.shape)
-                sys
+                
                 E.append(A_out)
                 result += ( # lora process
                     self.lora_B[self.active_adapter].loraB[i](
